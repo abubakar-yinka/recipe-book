@@ -1,4 +1,6 @@
-# RecipeBook
+# RecipeBook And ShoppingList
+This is a comprehensive Angular application covering all of the Angular 9 updates. The project focuses on the key features and skills required to successfully implement a modern angular application.
+This app managed and stores recipes and the necessary shopping list needed.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.7.
 
@@ -10,18 +12,24 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### Installation
+Clone the repository or download the zip file, enter the project directory and use Yarn to install the dependencies.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Using Git bash or your command line
+- git clone https://github.com/abubakar-yinka/recipe-book.git
+- cd into recipe-book
+- yarn/npm install to install dependencies
+- ng serve
 
-## Running unit tests
+#### Usage
+The project can be run with
+- `ng serve`
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+The project can be viewed in the browser at
+- `http://localhost:4200/`
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+##### Built With
+- Angular 2+
+- TypeScript
+- Angular-cli
+- Bootstrap
